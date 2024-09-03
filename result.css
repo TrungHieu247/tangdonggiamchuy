@@ -1,0 +1,134 @@
+body {
+    margin : 0px;
+    padding: 0px;
+}
+
+.container {
+    width           : 100vw;
+    height          : 115vh;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+    background-image: url(/img/Pop-up-Result-Normal.png);
+    background-size : cover;
+}
+
+.result {
+    height          : 78%;
+    width           : 50%;
+    background-color: white;
+    border-radius   : 25px;
+    display         : flex;
+    align-content   : center;
+    flex-wrap       : wrap;
+}
+
+.header {
+    height       : 15%;
+    text-align   : center;
+    width        : 100%;
+    margin-bottom: 5%;
+}
+
+.header h2 {
+    font-family: 'Plus Jakarta Sans';
+    font-style : normal;
+    font-size  : 40px;
+    line-height: 1%;
+    color      : #292930;
+}
+
+.header p {
+    font-size: 16px;
+    color    : #666;
+}
+
+.result-content {
+    width    : 80%;
+    max-width: 600px;
+}
+
+.result-result {
+    text-align   : center;
+    width        : 100%;
+    margin-bottom: 10%;
+}
+
+.result-result h2 {
+    font-size  : 20px;
+    font-weight: bold;
+    color      : #09378C;
+}
+
+.result-result h1 {
+    width      : 80%;
+    font-family: 'Plus Jakarta Sans';
+    font-style : normal;
+    font-size  : 64px;
+    color      : #B13535;
+    margin     : 0 auto;
+}
+
+.result-result p {
+    font-size: 16px;
+    width    : 55%;
+    margin   : 0 auto;
+}
+
+.result-actions {
+    width          : 48%;
+    margin         : 0 auto;
+    display        : flex;
+    justify-content: space-between;
+}
+
+
+.btn-repeat {
+    padding         : 10px 20px;
+    background-color: #ffff;
+    color           : #007bff;
+    border          : 1px solid #776473bd;
+    cursor          : pointer;
+    border-radius   : 5px;
+    transition      : background-color 0.3s ease;
+    padding         : 20px 30px;
+}
+
+
+.btn-explore {
+    padding         : 10px 20px;
+    background-color: #09378C;
+    color           : #ffffff;
+    cursor          : pointer;
+    border-radius   : 5px;
+    transition      : background-color 0.3s ease;
+    padding         : 20px 30px;
+}
+
+.header-title {
+    align-items   : center;
+    border-bottom : 1px solid #09378C;
+    border        : solid #09378C;
+    border-radius : 4px;
+    border-width  : 1px 1px 4px;
+    color         : #09378C;
+    display       : inline-block;
+    font-family   : 'Anton';
+    font-size     : 24px;
+    font-weight   : bold;
+    padding       : 20px 30px;
+    text-transform: uppercase;
+}
+
+.btn-explore-more {
+    background-color: #09378C;
+    color           : #ffffff;
+    border-radius   : 8px;
+    margin          : 0px auto;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    width           : 216px;
+    height          : 56px;
+}
